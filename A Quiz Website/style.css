@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+  margin: 0;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image {
+  display: flex;
+  margin: 20px;
+  height: 50px;
+  width: 100px;
+}
+
+.image img {
+  position: absolute;
+  top: 0;
+  align-items: center;
+}
+
+.list {
+  margin: 20px;
+  display: flex;
+}
+
+.list button {
+  background-color: #2b75cd;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#button:hover {
+  color: white;
+}
+
+.card {
+  background: #23589a;
+  width: 70%;
+  max-width: 600px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 25px;
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 20px;
+}
+
+#answer-button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid;
+  cursor: pointer;
+  text-align: left;
+  margin: 8px 0;
+  transition: 0.5s;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#btn-next {
+  background-color: white;
+  padding: 12px 28px;
+  border: none;
+  margin: 20px auto 0;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background: #2b75cd;
+  color: white;
+}
+.incorrect {
+  background: rgb(199, 14, 14);
+  color: white;
+}
